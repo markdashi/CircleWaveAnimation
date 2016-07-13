@@ -15,6 +15,7 @@
                         <viewControllerLayoutGuide type="bottom" id="hfC-co-KJi"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="DKc-eX-1Lq">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入电量:(0~100)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rxr-6M-6Jb">
@@ -163,7 +164,7 @@
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact">
                                     <mask key="subviews">
-                                        <exclude reference="rRr-hW-DpP"/>
+                                        <include reference="rRr-hW-DpP"/>
                                     </mask>
                                     <mask key="constraints">
                                         <include reference="2tg-dS-aiB"/>
@@ -270,42 +271,42 @@
                                 <exclude reference="uem-Kq-zbq"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="2rW-gE-hg7"/>
+                                <exclude reference="Giq-nd-tyw"/>
+                                <exclude reference="Uzr-7t-sHF"/>
+                                <exclude reference="yDk-HB-hox"/>
                                 <exclude reference="Rtk-XJ-ajy"/>
                                 <exclude reference="oEo-EA-TV3"/>
                                 <exclude reference="1cK-nr-XY3"/>
                                 <exclude reference="LLo-YB-hBQ"/>
-                                <exclude reference="Uzr-7t-sHF"/>
-                                <exclude reference="yDk-HB-hox"/>
-                                <exclude reference="RQF-RY-ySG"/>
-                                <exclude reference="XEO-KK-mXY"/>
                                 <exclude reference="bCN-Tb-OiW"/>
                                 <exclude reference="mxH-MV-Yrn"/>
-                                <exclude reference="2rW-gE-hg7"/>
-                                <exclude reference="Giq-nd-tyw"/>
+                                <exclude reference="RQF-RY-ySG"/>
+                                <exclude reference="XEO-KK-mXY"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="puj-1n-uFY"/>
                                 <include reference="Qvk-lT-4XD"/>
-                                <exclude reference="cgq-mh-DK8"/>
+                                <include reference="cgq-mh-DK8"/>
                                 <include reference="Hrd-WA-dHU"/>
                                 <include reference="PyF-cA-4SU"/>
                                 <include reference="uem-Kq-zbq"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="2rW-gE-hg7"/>
+                                <include reference="Giq-nd-tyw"/>
+                                <include reference="Uzr-7t-sHF"/>
+                                <include reference="yDk-HB-hox"/>
                                 <include reference="Rtk-XJ-ajy"/>
                                 <include reference="oEo-EA-TV3"/>
                                 <include reference="1cK-nr-XY3"/>
                                 <include reference="LLo-YB-hBQ"/>
-                                <include reference="Uzr-7t-sHF"/>
-                                <include reference="yDk-HB-hox"/>
-                                <include reference="RQF-RY-ySG"/>
-                                <include reference="XEO-KK-mXY"/>
                                 <include reference="bCN-Tb-OiW"/>
                                 <include reference="mxH-MV-Yrn"/>
-                                <include reference="2rW-gE-hg7"/>
-                                <include reference="Giq-nd-tyw"/>
+                                <include reference="RQF-RY-ySG"/>
+                                <include reference="XEO-KK-mXY"/>
                             </mask>
                         </variation>
                     </view>
